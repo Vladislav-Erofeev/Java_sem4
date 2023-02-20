@@ -8,9 +8,9 @@ import java.util.stream.Stream;
 public class Main {
     public static void main(String[] args) {
         List<Human> list = new LinkedList<>();
-        list.add(new Human(19, "Vlad", "Erofeev", LocalDate.of(2003, 11, 19), 75));
+        list.add(new Human(19, "Vlad", "Erofeev", LocalDate.of(2003, 11, 19), 78));
         list.add(new Human(20, "test1", "t1", LocalDate.of(2002, 11, 19), 74));
-        list.add(new Human(18, "test2", "t2", LocalDate.of(2004, 11, 19), 78));
+        list.add(new Human(18, "test2", "t2", LocalDate.of(2004, 11, 19), 75));
         list.add(new Human(15, "test3", "t3", LocalDate.of(2007, 11, 19), 72));
         list.add(new Human(11, "test4", "t4", LocalDate.of(2012, 11, 19), 120));
         list.add(new Human(53, "test5", "t5", LocalDate.of(2012, 11, 19), 54));
