@@ -6,5 +6,10 @@ public class Main {
         System.out.println(singletonOne.getField());
         SingletonOne singletonOne1 = SingletonOne.getInstance(10);
         System.out.println(singletonOne1.getField());
+
+        SingletoneTwo singletoneTwo = SingletoneTwo.getInstance();
+
+        SingletonThree singletonThree = SingletonThree.INSTANCE;
+        System.out.println(singletonThree.getField());
     }
 }
